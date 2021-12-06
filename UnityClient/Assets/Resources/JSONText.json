@@ -1,0 +1,16 @@
+{
+	"dificulty": {
+		"number": 5,
+		"name": "hard"
+	},
+		"player": [
+			{
+				"name": "Gabriel",
+				"age": 25
+			},
+			{
+				"name": "Thomaz",
+				"age": 43
+			}
+		]
+	}
