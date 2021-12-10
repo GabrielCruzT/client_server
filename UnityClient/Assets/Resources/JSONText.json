@@ -1,16 +1,126 @@
 {
-	"dificulty": {
-		"number": 5,
-		"name": "hard"
+	"header": {
+		"seq": 71251,
+		"stamp": {
+			"sec": 1415305737,
+			"nsec": 110138944
+		},
+		"frame_id": "world"
 	},
-		"player": [
-			{
-				"name": "Gabriel",
-				"age": 25
-			},
-			{
-				"name": "Thomaz",
-				"age": 43
+	"persons": [
+		{
+			"id": 3,
+			"height": 1.50029,
+			"orientation": 2.4570,
+			"age": 29.471,
+			"predicted_pose_name": "RIGHT_ARM_UP",
+			"predicted_pose_id": 2,
+			"prediction_score": 0.988,
+			"poses": [
+				{
+					"pose_name": "RIGHT_ARM_UP",
+					"pose_id": 2,
+					"prediction_score": 0.988
+				},
+				{
+					"prediction": "ARMS_UP",
+					"class_id": 1,
+					"confidence": 0.7
+				}
+			],
+			"joints": {
+				"model": "rtpose_MPI",
+				"HEAD": {
+					"x": 1.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"NECK": {
+					"x": 2.112,
+					"y": 1.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"RSHOULDER": {
+					"x": 3.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"RELBOW": {
+					"x": 4.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"RWRIST": {
+					"x": 5.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"LSHOULDER": {
+					"x": 6.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"LELBOW": {
+					"x": 7.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"LWRIST": {
+					"x": 8.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"RHIP": {
+					"x": 9.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"RKNEE": {
+					"x": 10.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"RANKLE": {
+					"x": 11.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"LHIP": {
+					"x": 12.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"LKNEE": {
+					"x": 13.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"LANKLE": {
+					"x": 14.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				},
+				"CHEST": {
+					"x": 15.112,
+					"y": 0.112,
+					"z": 0.112,
+					"confidence": 0.8971
+				}
 			}
-		]
-	}
+		}
+	]
+} 

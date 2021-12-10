@@ -17,8 +17,6 @@ public class client : MonoBehaviour
 
     Socket udp;
     IPEndPoint server;
-
-    string p = "recebeu";
     
     void Start()
     {
