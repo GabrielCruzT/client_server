@@ -48,7 +48,6 @@ public class server : MonoBehaviour
         public float confidence;
     }
 
-
     [System.Serializable]
     public class joints
     {
@@ -102,7 +101,6 @@ public class server : MonoBehaviour
 
     [SerializeField]
     Color[] mycolors = new Color[5];
-
 
     // Start is called before the first frame update
     void Start()
